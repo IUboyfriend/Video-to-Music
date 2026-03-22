@@ -1,0 +1,49 @@
+# ===== Core =====
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+tqdm
+
+# ===== Deep Learning =====
+torch
+torchvision
+torchaudio
+
+# ===== Hugging Face / LLM =====
+transformers
+accelerate
+datasets
+huggingface_hub
+sentencepiece
+tokenizers
+safetensors
+
+# ===== Efficient / Large Model Support =====
+bitsandbytes
+peft
+einops
+
+# ===== Vision / Video =====
+opencv-python
+Pillow
+decord
+av
+imageio
+imageio-ffmpeg
+moviepy
+
+# ===== Audio =====
+librosa
+soundfile
+
+# ===== Utilities =====
+pyyaml
+requests
+regex
+packaging
+
+# ===== Jupyter (optional) =====
+ipython
+notebook
