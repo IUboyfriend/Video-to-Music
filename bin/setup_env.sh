@@ -17,8 +17,8 @@ fi
 echo "Activating environment: $ENV_NAME"
 conda activate $ENV_NAME
  
-echo "Installing PyTorch with CUDA 11.8..."
-conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
+echo "Installing torch"
+pip install torch==2.7.1
 
 echo "Installing Python dependencies from requirements.txt..."
 pip install -r requirements.txt

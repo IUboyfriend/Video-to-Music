@@ -1,49 +1,23 @@
-# ===== Core =====
-numpy
-scipy
-pandas
-scikit-learn
-matplotlib
-tqdm
+accelerate==1.7.0
+decord==0.6.0
+deepspeed==0.16.0
+# flash_attn==2.7.4.post1
+liger_kernel==0.5.10
+numpy==1.24.4
+peft==0.15.2
+tokenizers==0.21.0
+# torch==2.7.1
+torchaudio==2.7.1
+torchcodec==0.4.0
+torchvision==0.22.1
+transformers==4.51.3
+triton==3.3.1
 
-# ===== Deep Learning =====
-torch
-torchvision
-torchaudio
-
-# ===== Hugging Face / LLM =====
-transformers
-accelerate
-datasets
-huggingface_hub
-sentencepiece
-tokenizers
-safetensors
-
-# ===== Efficient / Large Model Support =====
-bitsandbytes
-peft
+omegaconf
 einops
-
-# ===== Vision / Video =====
-opencv-python
-Pillow
-decord
-av
-imageio
-imageio-ffmpeg
-moviepy
-
-# ===== Audio =====
-librosa
-soundfile
-
-# ===== Utilities =====
-pyyaml
-requests
-regex
-packaging
-
-# ===== Jupyter (optional) =====
-ipython
-notebook
+sentencepiece
+tqdm
+tensorboard
+descript-audiotools>=0.7.2
+descript-audio-codec
+scipy
